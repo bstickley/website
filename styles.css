@@ -1,0 +1,191 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* Other */
+.carousel .carousel-item {
+    height: 600px;
+  }
+
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 600px;
+  }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  /* just make the coat of arms a little smaller */
+  @media (max-width: 768px){
+    #coatOfArms {
+      height: 300px;
+    }
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+ 
+  footer .container-fluid {
+      overflow: hidden;
+      margin-top: 250px;
+      background: #262626;
+      color: #627482 !important;
+      margin-bottom: 0;
+      padding-bottom: 0;
+  }
+
+  footer {
+    background-color:  #262626;
+  }
+
+  html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 1.5rem 0rem 0rem 0rem !important;
+    overflow-x: hidden; 
+}
+/* https://bbbootstrap.com/snippets/simple-footer-social-media-icons-37929510 */
+  small {
+      font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important;
+  }
+ 
+  .bold-text {
+      color: #989c9e !important;
+  }
+ 
+  .mt-55 {
+      margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important;
+  }
+ 
+  h3 {
+      font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important;
+  }
+ 
+  .social {
+      font-size: 21px !important;
+  }
+ 
+  .rights {
+      font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+  }
+
+  .social a i {
+    color: rgb(251,197,71);
+}
+.social a i:hover {
+  color: rgb(182, 128, 3);
+}
+
+.tint{
+  z-index: 1;
+  position: absolute;
+  /*background: rgba(24, 24, 24, 0.5);*/
+  background: linear-gradient( rgba(0,0,0,0.0), rgba(24, 24, 24, 0.7) );
+  width: 100%;
+  height: 100%;
+}
+
