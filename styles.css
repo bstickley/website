@@ -124,6 +124,11 @@ body {
     #coatOfArms {
       height: 325px;
     }
+
+    .bd-placeholder-img {
+      height: auto !important;
+      width: 100%;
+    }
   }
 
   @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
