@@ -122,7 +122,7 @@ body {
   /* just make the coat of arms a little smaller */
   @media (max-width: 768px){
     #coatOfArms {
-      height: 300px;
+      height: 325px;
     }
   }
 
